@@ -14,12 +14,32 @@
 
 ## Getting Started
 
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) 18.18 or later
+- npm (included with Node.js)
+
+### Local development
+
+```bash
 git clone https://github.com/naveennani-2605/capstone.git
 cd capstone
 npm install
 npm run dev
+```
 
-Then open http://localhost:3000.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Other commands
+
+| Command | Purpose |
+|---------|---------|
+| `npm run dev` | Start the development server |
+| `npm run build` | Create a production build |
+| `npm run start` | Serve the production build |
+| `npm run lint` | Run ESLint |
+
+Edit `app/page.tsx` to change the home page. See [CLAUDE.md](./CLAUDE.md) for project conventions and contribution guidelines.
 
 ## Roadmap
 
